@@ -1,45 +1,43 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Carlos',
+    lastName: 'Martínez',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Carlos',
-    avatar:    '/images/avatar.jpg',
-    location:  '',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Español']  // optional: Leave the array empty if you don't want to display languages
-}
+    role: 'Creador de recursos educativos',
+    avatar: '/images/avatar.jpg',
+    location: '', // IANA time zone identifier, e.g., 'Europe/Madrid'
+    languages: ['Español', 'English'] // Idiomas disponibles
+};
 
 const newsletter = {
     display: true,
-    title: <>  Esta es la web para las clases</>,
-    description: <>Esta en su beta y aun no funciona 100% bien.</>
-}
+    title: <>Bienvenidos a la web para las clases</>,
+    description: <>Este sitio está en fase beta y todavía se están añadiendo más funcionalidades.</>
+};
 
 const social = [
-    // Links are automatically displayed.
-    // Import new icons in /once-ui/icons.ts
     {
         name: 'Email',
         icon: 'email',
-        link: 'cdomcum2811@gmail.com',
+        link: 'carlos.educacion@example.com',
     },
-]
+];
 
 const home = {
-    label: 'Home',
+    label: 'Inicio',
     title: `Inicio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Recursos</>,
-    subline: <>Aqui la lista de recursos de la web</>
-}
+    description: `Web de recursos educativos creada por ${person.name}`,
+    headline: <>Recursos educativos</>,
+    subline: <>Explora herramientas y materiales para las clases.</>
+};
 
 const about = {
-    label: 'Cosas',
-    title: 'Sobre los recursos',
-    description: ``,
+    label: 'Sobre la web',
+    title: 'Información sobre este proyecto',
+    description: `Este proyecto está diseñado para facilitar las clases y está en constante desarrollo.`,
     tableOfContent: {
         display: true,
         subItems: true
@@ -49,171 +47,95 @@ const about = {
     },
     calendar: {
         display: true,
-        link: ''
+        link: 'https://calendario-clases.example.com'
     },
     intro: {
         display: true,
-        title: '',
-        description: <>S.</>
+        title: 'Acerca del creador',
+        description: <>Carlos ha desarrollado esta plataforma para ayudar a estudiantes y profesores.</>
     },
-  
-            {
-                company: 'Pizarra. Una pizarra para escribir bien y bonito (IA)',
-                timeframe: 'Beta',
-                role: 'Con muchas funciones',
-                achievements: [
-                    <></>,
-                    <></>
-                ],
-                images: [ ]
-            }
-        ]
-    },
+    features: [
+        {
+            company: 'Pizarra Digital',
+            timeframe: 'Beta',
+            role: 'Escribe y comparte ideas en tiempo real',
+            achievements: [
+                <>Función colaborativa para grupos</>,
+                <>Compatible con dispositivos móviles</>
+            ],
+            images: []
+        },
+        {
+            company: 'Calendario de Clases',
+            timeframe: 'Beta',
+            role: 'Organiza tus horarios fácilmente',
+            achievements: [
+                <>Sincronización con Google Calendar</>,
+                <>Recordatorios automáticos</>
+            ],
+            images: []
+        }
+    ],
     studies: {
-        display: true, // set to false to hide this section
-        title: 'Studies',
+        display: true,
+        title: 'Educación',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Universidad de la Educación',
+                description: <>Especialización en tecnologías educativas.</>
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Cursos Avanzados',
+                description: <>Estudios en metodologías activas de aprendizaje.</>
             }
         ]
     },
     technical: {
-        display: true, // set to false to hide this section
-        title: 'Technical skills',
+        display: true,
+        title: 'Habilidades técnicas',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Next.js',
+                description: <>Desarrollo de aplicaciones educativas interactivas.</>,
+                images: []
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Supabase',
+                description: <>Gestión eficiente de bases de datos para recursos educativos.</>,
+                images: []
             }
         ]
     }
-}
+};
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
-    description: `Read what ${person.name} has been up to recently`
-    // Create new blog posts by adding a new .mdx file to app/blog/posts
-    // All posts will be listed on the /blog route
-}
+    title: 'Escribiendo sobre educación y tecnología...',
+    description: `Lee las últimas actualizaciones y reflexiones de ${person.name}.`
+};
 
 const work = {
-    label: 'Work',
-    title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
-    // Create new project pages by adding a new .mdx file to app/blog/posts
-    // All projects will be listed on the /home and /work routes
-}
+    label: 'Proyectos',
+    title: 'Mis proyectos',
+    description: `Explora los proyectos educativos desarrollados por ${person.name}.`
+};
 
 const gallery = {
-    label: 'Gallery',
-    title: 'My photo gallery',
-    description: `A photo collection by ${person.name}`,
-    // Images from https://pexels.com
+    label: 'Galería',
+    title: 'Galería de recursos',
+    description: `Colección de imágenes y recursos útiles seleccionados por ${person.name}.`,
     images: [
         { 
             src: '/images/gallery/img-01.jpg', 
-            alt: 'image',
+            alt: 'Recurso 1',
             orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-02.jpg', 
-            alt: 'image',
+            alt: 'Recurso 2',
             orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-03.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-04.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-05.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-06.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-10.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-11.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        }
     ]
-}
+};
 
 export { person, social, newsletter, home, about, blog, work, gallery };
