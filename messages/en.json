@@ -1,81 +1,81 @@
 {
     "person": {
-        "role": "Design Engineer"
+        "role": "2º ESO"
     },
     "newsletter": {
-        "title": "Subscribe to {firstName}'s Newsletter",
-        "description": "I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering",
-        "button": "Sign up"
+        "title": "Hola",
+        "description": "Me llamo Carlos",
+        "button": "Suscribirse"
     },
     "home": {
-        "label": "Home",
-        "title": "{name}'s Portfolio",
-        "description": "Portfolio website showcasing my work as a {role}",
-        "headline": "Design engineer and builder",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+        "label": "Inicio",
+        "title": "Portfolio de {name}",
+        "description": "Sitio web de portfolio que muestra mi trabajo como {role}",
+        "headline": "Ingeniero de diseño y constructor",
+        "subline": "Soy Selene, ingeniera de diseño en FLY, donde creo experiencias de usuario intuitivas. Después de horas, construyo mis propios proyectos."
     },
     "about": {
-        "label": "About",
-        "title": "About me",
-        "description": "Meet {name}, {role} from {location}",
+        "label": "Acerca de",
+        "title": "Sobre mí",
+        "description": "Conoce a {name}, {role} de {location}",
         "intro": {
-            "title": "Introduction",
-            "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+            "title": "Introducción",
+            "description": "Selene es una ingeniera de diseño con sede en Yakarta, apasionada por transformar desafíos complejos en soluciones de diseño simples y elegantes. Su trabajo abarca interfaces digitales, experiencias interactivas y la convergencia del diseño con la tecnología."
         },
         "work": {
-            "title": "Work Experience",
+            "title": "Experiencia laboral",
             "experiences": {
                 "FLY": {
-                    "timeframe": "2022 - Present",
-                    "role": "Senior Design Engineer",
-                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+                    "timeframe": "2022 - Actualidad",
+                    "role": "Ingeniera de diseño senior",
+                    "achievements": "Rediseñó la interfaz de usuario/experiencia de usuario de la plataforma FLY, lo que resultó en un aumento del 20% en la participación de los usuarios y un 30% menos de tiempo de carga.;Lideró la integración de herramientas de IA en los flujos de trabajo de diseño, lo que permitió a los diseñadores iterar un 50% más rápido."
                 },
                 "Creativ3": {
                     "timeframe": "2018 - 2022",
-                    "role": "Lead Designer",
-                    "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+                    "role": "Diseñadora principal",
+                    "achievements": "Desarrolló un sistema de diseño que unificó la marca en múltiples plataformas, mejorando la consistencia del diseño en un 40%.;Lideró un equipo multifuncional para lanzar una nueva línea de productos, contribuyendo a un aumento del 15% en los ingresos generales de la empresa."
                 }
             }
         },
         "studies": {
-            "title": "Studies",
+            "title": "Estudios",
             "institutions": {
                 "University of Jakarta": {
-                    "description": "Studied software engineering."
+                    "description": "Estudió ingeniería de software."
                 },
                 "Build the Future": {
-                    "description": "Studied online marketing and personal branding."
+                    "description": "Estudió marketing online y marca personal."
                 }
             }
         },
         "technical": {
-            "title": "Technical skills",
+            "title": "Habilidades técnicas",
             "skills": {
                 "Figma": {
-                    "description": "Able to prototype in Figma with Once UI with unnatural speed."
+                    "description": "Capaz de prototipar en Figma con Once UI a una velocidad sorprendente."
                 },
                 "Nextjs": {
-                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
+                    "description": "Construyendo aplicaciones de próxima generación con Next.js + Once UI + Supabase."
                 }
             }
         }
     },
     "blog": {
         "label": "Blog",
-        "title": "Writing about design and tech...",
-        "description": "Read what {name} has been up to recently"
+        "title": "Escribiendo sobre diseño y tecnología...",
+        "description": "Lee lo que {name} ha estado haciendo recientemente"
     },
     "work": {
-        "label": "Work",
-        "title": "My projects",
-        "description": "Design and dev projects by {name}"
+        "label": "Trabajo",
+        "title": "Mis proyectos",
+        "description": "Proyectos de diseño y desarrollo de {name}"
     },
     "gallery": {
-        "label": "Gallery",
-        "title": "My photo gallery",
-        "description": "A photo collection by {name}"
+        "label": "Galería",
+        "title": "Mi galería de fotos",
+        "description": "Una colección de fotos de {name}"
     },
     "projectCard": {
-        "label": "Read Case Study"
+        "label": "Leer caso de estudio"
     }
 }
